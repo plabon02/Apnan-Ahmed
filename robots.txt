@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://plabon02.github.io/Apnan-Ahmed/sitemap.xml
