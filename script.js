@@ -42,41 +42,16 @@ buttons.forEach((button, index) => {
 
 // portfolio fillter 
 
-var mixer = mixitup('.portfolio-gallery',{
-    selectors: {
-        target: '.portfolio-box'
-    },
-    animation: {
-        duration: 500
-    }
-});
-
-
-// Initialize swiperjs 
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    autoplay:{
-        delay:3000,
-        disableOnInteraction:false,
-    },
-
-    breakpoints: {
-        576:{
-            slidesPerView:2,
-            spaceBetween:10,
+if (typeof mixitup !== 'undefined') {
+    var mixer = mixitup('.portfolio-gallery',{
+        selectors: {
+            target: '.portfolio-box'
         },
-        1200:{
-            slidesPerView:3,
-            spaceBetween:20,
-        },
-    }
-  });
+        animation: {
+            duration: 500
+        }
+    });
+}
 
 
 
@@ -165,23 +140,56 @@ function activeMenu(){
     let len = section.length;
     while(--len && window.scrollY + 97 < section[len].offsetTop){}
     menuLi.forEach(sec => sec.classList.remove("active"));
-    menuLi[len].classList.add("active");
+    if (menuLi[len]) menuLi[len].classList.add("active");
 }
 activeMenu();
 window.addEventListener("scroll",activeMenu);
 
 // scroll reveal
 
-ScrollReveal({ 
-    distance:"90px",
-    duration:2000,
-    delay:200,
-    // reset: true ,
-});
+if (typeof ScrollReveal !== 'undefined') {
+    ScrollReveal({ 
+        distance:"90px",
+        duration:2000,
+        delay:200,
+        // reset: true ,
+    });
 
 
-ScrollReveal().reveal('.hero-info,.main-text,.proposal,.heading', { origin: "top" });
-ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "left" });
-ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
-ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
+    ScrollReveal().reveal('.hero-info,.main-text,.proposal,.heading', { origin: "top" });
+    ScrollReveal().reveal('.about-img,.fillter-buttons,.contact-info', { origin: "left" });
+    ScrollReveal().reveal('.about-content,.skills', { origin: "right" });
+    ScrollReveal().reveal('.allServices,.portfolio-gallery,.blog-box,footer,.img-hero', { origin: "bottom" });
+}
+
+// contact form submit via web3forms
+const contactForm = document.getElementById("contactForm");
+if (contactForm) {
+    const formStatus = document.getElementById("form-status");
+    contactForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const data = Object.fromEntries(new FormData(contactForm).entries());
+        formStatus.textContent = "Sending...";
+        formStatus.style.color = "var(--main-color)";
+        try {
+            const res = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                headers: { "Content-Type": "application/json", "Accept": "application/json" },
+                body: JSON.stringify(data)
+            });
+            const result = await res.json();
+            if (result.success) {
+                contactForm.reset();
+                formStatus.textContent = "Message sent successfully! I will reply soon.";
+                formStatus.style.color = "green";
+            } else {
+                formStatus.textContent = "Something went wrong. Please try again.";
+                formStatus.style.color = "#e6006d";
+            }
+        } catch (err) {
+            formStatus.textContent = "Network error. Please try again.";
+            formStatus.style.color = "#e6006d";
+        }
+    });
+}
 

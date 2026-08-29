@@ -1,0 +1,60 @@
+AWARD PHOTO PROMPTS - Apnan Ahmed Portfolio
+=============================================
+How to use: copy the whole numbered prompt (one paragraph), paste it in your AI tool along with your photo as reference.
+
+Negative prompt (use for every image):
+other people, blurred face, extra hands, watermark, logo text, text on plaque, spoons, messy background, shadows on face
+
+Save every image in: img/awards/  with the exact file name shown (as .jpg)
+
+
+1. Microsoft Word -> award-word.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a modern corporate office award ceremony hall. Backdrop: a huge glowing Word document on the stage screen with floating formatted pages. He is holding a golden trophy in one hand and a certificate in the other. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+2. Microsoft Excel -> award-excel.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, on a tech conference keynote stage. Backdrop: a giant illuminated spreadsheet with 3D bar charts. His hands are open toward the charts and a gold medal hangs around his neck. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+3. Microsoft PowerPoint -> award-powerpoint.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at an auditorium seminar stage with a big slideshow screen. Backdrop: rolling animated presentation slides. He is pointing to the screen while holding a plaque. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+4. Microsoft Access -> award-access.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, in a business seminar room. Backdrop: a holographic database with linked tables and query windows. He is holding a plaque close to his chest. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+5. Microsoft Publisher -> award-publisher.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a publishing exhibition stand. Backdrop: floating magazines, brochures and a printing press. He is holding a printed brochure in one hand and a trophy in the other. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+6. Microsoft Outlook -> award-outlook.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at an elegant corporate award gala in the evening. Backdrop: a glowing inbox envelope and an illuminated calendar grid. He is holding a golden trophy with a warm smile. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+7. Microsoft OneNote -> award-onenote.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a creative workshop auditorium in daylight. Backdrop: floating sticky notes and an open notebook. He is holding a rolled certificate. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+8. LibreOffice -> award-libreoffice.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at an open-source community event hall. Backdrop: floating office-suite documents in clean teal tones. He is holding a wooden plaque. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+9. WPS Office -> award-wps.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, on a tech expo stage with blue lighting. Backdrop: a blue W-style emblem with floating documents. He is raising a trophy above his head. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+10. PDF Edit -> award-pdf.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a professional printing and digital expo. Backdrop: floating PDF pages with red editing-tool accents. He is holding a golden shield-style plaque. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+11. Adobe Photoshop -> award-photoshop.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a creative media awards stage with colorful lights. Backdrop: a floating color palette, brushes and photo-layer panels. He is holding a medal and giving a thumbs up. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+12. Adobe Illustrator -> award-illustrator.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a design festival stage with magenta lighting. Backdrop: glowing bezier curves, pen tools and color swatches. He is holding a trophy at a slight angle. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+13. Adobe InDesign -> award-indesign.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a book launch and design awards hall. Backdrop: floating book spreads and typography rulers. He is holding a hardcover book in one hand and a plaque in the other. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+14. CorelDRAW -> award-coreldraw.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a vector arts convention stage. Backdrop: a giant rainbow vector swirl with shape tools. He is holding a trophy with both hands. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+15. ArtCAM 2018 -> award-artcam.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, at a furniture and CNC industry award ceremony with amber lighting. Backdrop: a large carved wood panel with glowing engraving toolpaths. He is standing proudly beside a carved wooden award plaque. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+16. Website Design -> award-website.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, on a web technology summit stage with bright lighting. Backdrop: floating laptop, tablet and phone screens showing a website. He is holding a trophy, with one hand on his chest. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.
+
+17. AI Applications -> award-ai.jpg
+A 30-year-old Bangladeshi man with short black hair, neatly trimmed short beard, medium skin tone, warm smile, oval face, wearing a smart formal light-blue shirt, on an AI innovation awards podium with purple neon lighting. Backdrop: a glowing neural network and chat interface hologram. He is holding a futuristic glowing trophy. Soft pink-purple stage lighting (#e6006d to #7a0fa8), blurred audience bokeh behind, confetti in the air, professional event photography, natural skin tones, sharp focus on the face, clean composition, high resolution, 16:9.

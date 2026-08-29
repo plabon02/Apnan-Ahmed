@@ -12,6 +12,11 @@
     <link rel="canonical" href="https://plabon02.github.io/Apnan-Ahmed/">
     <meta name="theme-color" content="#e6006d">
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='20'%20fill='%23e6006d'/%3E%3Ctext%20x='50'%20y='72'%20font-size='64'%20text-anchor='middle'%20fill='%23fff'%20font-family='Arial'%20font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Apnan Ahmed | Microsoft Office Expert & Graphic Designer">
@@ -41,10 +46,40 @@
       "knowsAbout": ["Microsoft Office", "Graphics Design", "Web Development"]
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What Microsoft Office services do you provide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Helping with MS Word documents and templates, Excel data management and formulas, PowerPoint presentations, Outlook email organization, Access databases and Publisher layouts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How experienced are you with Microsoft Office?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "18 years of hands-on experience with Microsoft Office for document processing, data management, presentations and communication."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide graphic design or web development?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, alongside Microsoft Office I design graphics with Photoshop and Illustrator and build responsive websites using HTML, CSS and JavaScript."
+          }
+        }
+      ]
+    }
+    </script>
     <!-- boxicon css link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 <body>
     <div class="overlay"></div>
@@ -55,6 +90,8 @@
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="right-header">
@@ -105,10 +142,10 @@
             </div>
         </div>
         <div class="img-hero">
-            <img src="img/plabon.png" alt="Apnan Ahmed - Microsoft Office expert and graphic designer">
+            <img src="img/plabon.png" alt="Apnan Ahmed - Microsoft Office expert and graphic designer" fetchpriority="high">
             <div class="rotate-text">
                 <div class="text">
-                    <p>I'm Graphics Designer And I'm Technologist in MS Office</p>
+                    <p>Graphics Designer, MS Office Expert And AI Web Developer</p>
                 </div>
                 <span><i></i></span>
             </div>
@@ -117,7 +154,7 @@
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="img/aboutMe.png" alt="Illustration of Apnan Ahmed" class="aboutHero">
+            <img src="img/aboutMe.png" alt="Illustration of Apnan Ahmed" loading="lazy" class="aboutHero">
             <div class="showcase-ring">
                 <img src="img/shapes/ring.png" class="ring">
                 <img src="img/shapes/circle.png" class="circle">
@@ -136,15 +173,15 @@
                 <div class="content">
                     <div class="text-box">
                     <p>Microsoft Office 2003, 2007, 2010, 2013, 2016, 2019, 2024, 365</p>
-                    <span>MS Word, MS Excel, MS PowerPoint, MS Outlook, MS Publisher, MS Access</span>
+                    <span>MS Word, MS Excel, MS PowerPoint, MS Access, MS Publisher, MS Outlook, MS OneNote, LibreOffice, WPS, PDF Edit</span>
                 </div>
                 <div class="text-box">
                     <p>Graphic Designing</p>
-                    <span>Photoshop, Illustrator, inDesign</span>
+                    <span>Adobe Photoshop 7-2026, Adobe Illustrator 10-2026, Adobe InDesign, CorelDRAW, ArtCAM 2018</span>
                 </div>
                 <div class="text-box">
-                    <p>Core Computer Science Concepts</p>
-                    <span>DSA, OOPs.</span>
+                    <p>Web Design & AI</p>
+                    <span>Web design (HTML, CSS, JavaScript), AI tools, AI-powered application creation</span>
                 </div>
                 </div>
 
@@ -198,8 +235,8 @@
                     <span></span>
                 </div>
                 <h3>App Development</h3>
-                <p>I build useful tools and mobile-ready solutions that make everyday tasks easier, faster and more efficient.</p>
-                <a href="#" class="readMore">Read More</a>
+                <p>I build useful tools, mobile-ready apps and AI-powered applications that make everyday tasks easier and faster.</p>
+                <a href="#contact" class="readMore">Read More</a>
             </div>
 
             <div class="servicesItem">
@@ -209,7 +246,17 @@
                 </div>
                 <h3>Web Development</h3>
                 <p>I create clean, responsive and fast-loading websites using modern HTML, CSS and JavaScript.</p>
-                <a href="#" class="readMore">Read More</a>
+                <a href="#contact" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bxs-palette' ></i>
+                    <span></span>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Logos, branding, print layouts and ArtCAM designs using Photoshop, Illustrator, InDesign and CorelDRAW.</p>
+                <a href="#contact" class="readMore">Read More</a>
             </div>
 
             <div class="servicesItem">
@@ -218,8 +265,8 @@
                     <span></span>
                 </div>
                 <h3>Automations</h3>
-                <p>I automate repetitive Office and data workflows to save time, reduce errors and boost productivity.</p>
-                <a href="#" class="readMore">Read More</a>
+                <p>I automate repetitive Office and data workflows with smart AI assistance to save time and reduce errors.</p>
+                <a href="#contact" class="readMore">Read More</a>
             </div>
 
             <div class="servicesItem">
@@ -229,17 +276,17 @@
                 </div>
                 <h3>Digital Marketing</h3>
                 <p>I help promote products and services online with practical, result-focused digital marketing strategies.</p>
-                <a href="#" class="readMore">Read More</a>
+                <a href="#contact" class="readMore">Read More</a>
             </div>
         </div>
 
         <div class="proposal">
             <div class="text-box">
-                <span>Get It Touch</span>
+                <span>Get In Touch</span>
                 <h3>Have a Project On Your Mind</h3>
                 <a href="#contact" class="btn">Contact Me</a>
             </div>
-            <img src="img/support.png" class="first" alt="Contact Apnan Ahmed for your project">
+            <img src="img/support.png" class="first" loading="lazy" alt="Contact Apnan Ahmed for your project">
         </div>
 
         <div class="showcase">
@@ -254,87 +301,311 @@
     <section class="portfolio" id="portfolio">
         <div class="main-text">
             <h2 class="heading">My Projects</h2>
-            <span>what i will do for you</span>
+            <span>my recent works</span>
         </div>
         <div class="fillter-buttons">
-            <button class="button mixitup-control-active" data-filter="all">Microsoft Office</button>
-            <button class="button" data-filter=".web">Graphics Design</button>
-            <button class="button" data-filter=".uiux">Automations</button>
-            <button class="button" data-filter=".branding">Digital Marketing</button>
+            <button class="button mixitup-control-active" data-filter="all">All</button>
+            <button class="button" data-filter=".office">Microsoft Office</button>
+            <button class="button" data-filter=".graphics">Graphics Design</button>
+            <button class="button" data-filter=".web">Web & AI</button>
         </div>
 
         <div class="portfolio-gallery">
-            <div class="portfolio-box mix uiux">
+            <div class="portfolio-box mix office">
                 <div class="portfolio-content">
                     <h3>Microsoft Word</h3>
-                    <p>Professional document templates, formatting and automation for reports and letters.</p>
-                    <a href="#" class="readMore">Explore More</a>
+                    <p>Professional documents, templates and report formatting.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/1.jpg" alt="Microsoft Word document services">
+                    <img src="img/portfolio/office-word.jpg" loading="lazy" alt="Microsoft Word project demo - document template design">
                 </div>
             </div>
 
-            <div class="portfolio-box mix web">
+            <div class="portfolio-box mix office">
                 <div class="portfolio-content">
                     <h3>Microsoft Excel</h3>
-                    <p>Data management, formulas, pivot tables and dashboard-style reports.</p>
-                    <a href="#" class="readMore">Explore More</a>
+                    <p>Data management, formulas, pivot tables and dashboards.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/2.jpg" alt="Microsoft Excel spreadsheet solutions">
+                    <img src="img/portfolio/office-excel.jpg" loading="lazy" alt="Microsoft Excel project demo - spreadsheet and dashboard">
                 </div>
             </div>
 
-            <div class="portfolio-box mix web">
+            <div class="portfolio-box mix office">
                 <div class="portfolio-content">
                     <h3>Microsoft PowerPoint</h3>
-                    <p>Professional slide designs and presentations for meetings, training and events.</p>
-                    <a href="#" class="readMore">Explore More</a>
+                    <p>Professional slide designs and presentations.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/3.jpg" alt="Microsoft PowerPoint presentation design">
+                    <img src="img/portfolio/office-powerpoint.jpg" loading="lazy" alt="Microsoft PowerPoint project demo - slide presentation">
                 </div>
             </div>
 
-
-            <div class="portfolio-box mix web">
+            <div class="portfolio-box mix office">
                 <div class="portfolio-content">
                     <h3>Microsoft Access</h3>
-                    <p>Relational databases and small business data solutions.</p>
-                    <a href="#" class="readMore">Explore More</a>
+                    <p>Relational databases and business data solutions.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/4.jpg" alt="Microsoft Access database solutions">
+                    <img src="img/portfolio/office-access.jpg" loading="lazy" alt="Microsoft Access project demo - database solution">
                 </div>
             </div>
 
-            <div class="portfolio-box mix uiux">
-                <div class="portfolio-content">
-                    <h3>Microsoft Outlook</h3>
-                    <p>Email management, organized workflows and professional communication.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/5.jpg" alt="Microsoft Outlook email management">
-                </div>
-            </div>
-
-            <div class="portfolio-box mix branding">
+            <div class="portfolio-box mix office">
                 <div class="portfolio-content">
                     <h3>Microsoft Publisher</h3>
                     <p>Print-ready layouts, brochures, flyers and newsletters.</p>
-                    <a href="#" class="readMore">Explore More</a>
+                    <a href="#contact" class="readMore">Explore More</a>
                 </div>
                 <div class="portfolio-img">
-                    <img src="img/portfolio/6.jpg" alt="Microsoft Publisher brochure and flyer design">
+                    <img src="img/portfolio/office-publisher.jpg" loading="lazy" alt="Microsoft Publisher project demo - brochure and flyer">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix office">
+                <div class="portfolio-content">
+                    <h3>Microsoft Outlook</h3>
+                    <p>Email management and organized professional communication.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/office-outlook.jpg" loading="lazy" alt="Microsoft Outlook project demo - email management">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix office">
+                <div class="portfolio-content">
+                    <h3>Microsoft OneNote</h3>
+                    <p>Organized notes, planning and information management.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/office-onenote.jpg" loading="lazy" alt="Microsoft OneNote project demo - notes and planning">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix office">
+                <div class="portfolio-content">
+                    <h3>LibreOffice</h3>
+                    <p>Office documents created and converted with LibreOffice.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/office-libreoffice.jpg" loading="lazy" alt="LibreOffice project demo - office documents">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix office">
+                <div class="portfolio-content">
+                    <h3>WPS Office</h3>
+                    <p>Documents, spreadsheets and presentations with WPS.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/office-wps.jpg" loading="lazy" alt="WPS Office project demo - documents and presentations">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix office">
+                <div class="portfolio-content">
+                    <h3>PDF Edit</h3>
+                    <p>PDF creation, editing and document conversion.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/office-pdf.jpg" loading="lazy" alt="PDF edit project demo - PDF creation and editing">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix graphics">
+                <div class="portfolio-content">
+                    <h3>Adobe Photoshop</h3>
+                    <p>Photo editing, retouching and digital art in Photoshop.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/design-photoshop.jpg" loading="lazy" alt="Adobe Photoshop project demo - photo editing and digital art">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix graphics">
+                <div class="portfolio-content">
+                    <h3>Adobe Illustrator</h3>
+                    <p>Logos, vector art and illustrations in Illustrator.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/design-illustrator.jpg" loading="lazy" alt="Adobe Illustrator project demo - logos and vector art">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix graphics">
+                <div class="portfolio-content">
+                    <h3>Adobe InDesign</h3>
+                    <p>Magazine, book and print layout design in InDesign.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/design-indesign.jpg" loading="lazy" alt="Adobe InDesign project demo - magazine and print layout">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix graphics">
+                <div class="portfolio-content">
+                    <h3>CorelDRAW</h3>
+                    <p>Vector graphics and print designs in CorelDRAW.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/design-coreldraw.jpg" loading="lazy" alt="CorelDRAW project demo - vector graphics design">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix graphics">
+                <div class="portfolio-content">
+                    <h3>ArtCAM 2018</h3>
+                    <p>CNC machining and engraving toolpaths in ArtCAM.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/design-artcam.jpg" loading="lazy" alt="ArtCAM 2018 project demo - CNC machining and engraving">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Website Design</h3>
+                    <p>Responsive websites built with HTML, CSS and JavaScript.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/web-website.jpg" loading="lazy" alt="Website design project demo - responsive HTML CSS JavaScript website">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>AI Applications</h3>
+                    <p>AI-powered tools and applications built with AI assistance.</p>
+                    <a href="#contact" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/web-ai.jpg" loading="lazy" alt="AI applications project demo - AI powered tools">
                 </div>
             </div>
         </div>
 
     </section>
 
-  
+    <section class="awards" id="awards">
+        <div class="main-text">
+            <h2 class="heading">Awards & Recognitions</h2>
+            <span>my proud moments</span>
+        </div>
+        <div class="awards-gallery">
+            <figure class="award-card">
+                <img src="img/awards/award-word.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft Word">
+                <figcaption>Microsoft Word</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-excel.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft Excel">
+                <figcaption>Microsoft Excel</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-powerpoint.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft PowerPoint">
+                <figcaption>Microsoft PowerPoint</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-access.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft Access">
+                <figcaption>Microsoft Access</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-publisher.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft Publisher">
+                <figcaption>Microsoft Publisher</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-outlook.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft Outlook">
+                <figcaption>Microsoft Outlook</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-onenote.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Microsoft OneNote">
+                <figcaption>Microsoft OneNote</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-libreoffice.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for LibreOffice">
+                <figcaption>LibreOffice</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-wps.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for WPS Office">
+                <figcaption>WPS Office</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-pdf.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for PDF document editing">
+                <figcaption>PDF Edit</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-photoshop.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Adobe Photoshop">
+                <figcaption>Adobe Photoshop</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-illustrator.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Adobe Illustrator">
+                <figcaption>Adobe Illustrator</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-indesign.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Adobe InDesign">
+                <figcaption>Adobe InDesign</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-coreldraw.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for CorelDRAW">
+                <figcaption>CorelDRAW</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-artcam.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for ArtCAM 2018">
+                <figcaption>ArtCAM 2018</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-website.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for Website Design">
+                <figcaption>Website Design</figcaption>
+            </figure>
+            <figure class="award-card">
+                <img src="img/awards/award-ai.jpg" loading="lazy" alt="Apnan Ahmed receiving an award for AI Applications">
+                <figcaption>AI Applications</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="main-text">
+            <h2 class="heading">Frequently Asked Questions</h2>
+            <span>answers you might need</span>
+        </div>
+        <div class="faq-wrap">
+            <details open>
+                <summary>What Microsoft Office services do you provide?</summary>
+                <p>I help with MS Word documents and templates, Excel data management and formulas, PowerPoint presentations, Outlook email organization, Access databases and Publisher layouts.</p>
+            </details>
+            <details>
+                <summary>How experienced are you with Microsoft Office?</summary>
+                <p>I have 18 years of hands-on experience working with Microsoft Office applications for document processing, data management, presentations and communication.</p>
+            </details>
+            <details>
+                <summary>Do you provide graphic design or web development?</summary>
+                <p>Yes. Alongside Microsoft Office, I design graphics with Photoshop and Illustrator and build responsive websites using HTML, CSS and JavaScript.</p>
+            </details>
+            <details>
+                <summary>How do I hire you or start a project?</summary>
+                <p>Send me a message using the contact form below or email me directly. I usually reply within 24 hours and I am happy to discuss your requirements first.</p>
+            </details>
+            <details>
+                <summary>What is your availability and pricing?</summary>
+                <p>Pricing depends on the scope of each project. Contact me with your details and I will give you a clear estimate and a timeline.</p>
+            </details>
+        </div>
+    </section>
 
     <section class="down-box" id="contact">
         <div class="contactSkills">
@@ -343,18 +614,20 @@
                     <h2 class="heading">Contact Me</h2>
                     <span>get in touch with me</span>
                 </div>
-                <form action="mailto:apnan2010@mail.com" method="post" enctype="text/plain">
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="2508599e-55e3-4979-84ad-8fec4615dfe3">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display:none">
                     <div class="input-box">
-                        <input type="text" name="First Name" placeholder="First Name" required>
-                        <input type="text" name="Last Name" placeholder="Last Name" required>
+                        <input type="text" name="first_name" placeholder="First Name" required>
+                        <input type="text" name="last_name" placeholder="Last Name" required>
                     </div>
-                    <input type="email" name="Email" placeholder="Email" required>
-                    <input type="text" name="Subject" placeholder="Subject">
-                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Write your message...">
-                    </textarea>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" rows="10" placeholder="Write your message..." required></textarea>
                     <div class="formBtn">
                         <button type="submit" class="btn">Send Message</button>
                     </div>
+                    <p id="form-status" style="margin-top:.6rem;font-weight:500;color:var(--main-color);"></p>
                 </form>
             </div>
             <div class="skills">
@@ -378,7 +651,7 @@
                                                 <circle cx="85" cy="85" r="75" stroke-linecap="round" />
                                        </svg>
                                        <h2 class="counter">
-                                        <span data-target="89">0</span>%
+                                        <span data-target="95">0</span>%
                                        </h2>
                                     </div>
                                 </div>
@@ -400,7 +673,7 @@
                                                 <circle cx="85" cy="85" r="75" stroke-linecap="round" />
                                        </svg>
                                        <h2 class="counter">
-                                        <span data-target="47">0</span>%
+                                        <span data-target="88">0</span>%
                                        </h2>
                                     </div>
                                 </div>
@@ -423,12 +696,12 @@
                                                 <circle cx="85" cy="85" r="75" stroke-linecap="round" />
                                        </svg>
                                        <h2 class="counter">
-                                        <span data-target="56">0</span>%
+                                        <span data-target="72">0</span>%
                                        </h2>
                                     </div>
                                 </div>
                                 <div class="sk-title">
-                                    JavaScript
+                                    Web Design
                                 </div>
                             </div>
 
@@ -446,12 +719,12 @@
                                                 <circle cx="85" cy="85" r="75" stroke-linecap="round" />
                                        </svg>
                                        <h2 class="counter">
-                                        <span data-target="19">0</span>%
+                                        <span data-target="78">0</span>%
                                        </h2>
                                     </div>
                                 </div>
                                 <div class="sk-title">
-                                    UI/UX Design
+                                    AI Tools
                                 </div>
                             </div>
                         </div>
@@ -473,8 +746,6 @@
 
     <!-- scroll reveal  -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- mixitup cdn js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
