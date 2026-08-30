@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtCAM Basics: From 2D Design to CNC Machining | Apnan Ahmed</title>
+    <meta name="description" content="Take a 2D drawing all the way to CNC machining. This ArtCAM beginner guide covers vector drawing, relief modeling, safe toolpaths and clean output files.">
+    <meta name="keywords" content="ArtCAM tutorial, CNC machining, relief modeling, Apnan Ahmed">
+    <meta name="author" content="Apnan Ahmed">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://plabon02.github.io/Apnan-Ahmed/blog/en-artcam-cnc.html">
+    <meta name="theme-color" content="#e6006d">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='20'%20fill='%23e6006d'/%3E%3Ctext%20x='50'%20y='72'%20font-size='64'%20text-anchor='middle'%20fill='%23fff'%20font-family='Arial'%20font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="ArtCAM Basics: From 2D Design to CNC Machining">
+    <meta property="og:description" content="From vector drawing and relief modeling to toolpaths and CNC output — the ArtCAM basics.">
+    <meta property="og:url" content="https://plabon02.github.io/Apnan-Ahmed/blog/en-artcam-cnc.html">
+    <meta property="og:image" content="https://plabon02.github.io/Apnan-Ahmed/img/portfolio/design-artcam.jpg">
+    <meta property="og:site_name" content="Apnan Ahmed">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "ArtCAM Basics: From 2D Design to CNC Machining",
+      "description": "Take a 2D drawing all the way to CNC machining. This ArtCAM beginner guide covers vector drawing, relief modeling, safe toolpaths and clean output files.",
+      "image": "https://plabon02.github.io/Apnan-Ahmed/img/portfolio/design-artcam.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Apnan Ahmed",
+        "url": "https://plabon02.github.io/Apnan-Ahmed/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Apnan Ahmed"
+      },
+      "datePublished": "2026-08-29",
+      "dateModified": "2026-08-29",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://plabon02.github.io/Apnan-Ahmed/blog/en-artcam-cnc.html"
+      },
+      "inLanguage": "en",
+      "keywords": "ArtCAM, CNC, relief modeling"
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><span>Apnan </span>Blog</a>
+        <ul>
+            <li><a href="../index.html">Portfolio</a></li>
+            <li><a href="index.html">Blog</a></li>
+        </ul>
+    </header>
+
+    <div class="post-layout">
+
+    <main class="post-page">
+
+        <a class="back-link" href="index.html"><i class='bx bx-left-arrow-alt'></i> All Posts</a>
+
+        <header>
+            <div class="post-meta">
+                <span class="tag lang-en">English</span>
+                <span class="cat">Design Tools</span>
+                <span>Aug 2026</span>
+            </div>
+            <h1>ArtCAM Basics: From 2D Design to CNC Machining</h1>
+        </header>
+
+        <img class="post-cover" src="../img/portfolio/design-artcam.jpg" alt="ArtCAM from 2D design to CNC machining">
+
+        <div class="post-content">
+
+            <p>ArtCAM takes a flat 2D design and turns it into the 3D reliefs and toolpaths that run on CNC machines. If you've ever wondered how engraved signs, guitar bodies, mold masters and decorative panels are made, ArtCAM is the bridge. This ArtCAM beginner guide covers the pipeline in its logical order: vectors, reliefs, toolpaths, simulation and output.</p>
+
+            <h2>1. Start from clean 2D vectors</h2>
+            <p>Import a DXF or EPS design, or draw directly with the vector tools. Every shape that becomes a relief must be a closed profile — join loose nodes and check for gaps. Clean <strong>vector drawing</strong> saves hours later.</p>
+
+            <h2>2. Model the relief</h2>
+            <p>Select a closed vector and use the <strong>relief modeling</strong> tools to raise, lower or dome selected areas. Start simple: raised text, recessed letters or a chamfered edge. Keep maximum heights realistic for the thickness of the material you plan to machine.</p>
+
+            <h2>3. Understand toolpaths</h2>
+            <p>A <strong>toolpath</strong> is the route the machine travels. You usually need two passes:
+            </p>
+            <ul>
+                <li><strong>Roughing</strong> removes most material quickly with a large tool.</li>
+                <li><strong>Finishing</strong> cuts the final surface with a smaller tool and a finer stepover.</li>
+            </ul>
+            <p>Set spindle speed, feed rate and stepover from the tool and material — chip-load charts are your friend.</p>
+
+            <h2>4. Simulate before you machine</h2>
+            <p>Run the simulator and watch the virtual cut. Simulation catches plunges into clamps, collisions with the workholding, and zones the tool can never reach. It's free to fix in software and expensive on steel.</p>
+
+            <h2>5. Output to your CNC machine</h2>
+            <p>Post-processors convert the toolpath into <strong>G-code</strong> that your machine controller understands. Verify the correct post-processor, set machine zero above the stock (safe height), and do a dry run with the tool raised.</p>
+
+            <h2>A beginner pipeline</h2>
+            <ol>
+                <li>Import or draw 2D vectors and close every profile.</li>
+                <li>Build a simple relief from the vectors.</li>
+                <li>Create a roughing toolpath, then a finishing toolpath.</li>
+                <li>Simulate until the preview is clean.</li>
+                <li>Output with the correct post-processor and machine zero.</li>
+            </ol>
+
+            <blockquote>On CNC, measure twice and simulate twice more. The machine has no undo button.</blockquote>
+
+            <p>Start with a small, flat sample — a simple nameplate — before you commit to expensive material. What are you planning to machine first? Let me know in the comments.</p>
+
+        </div>
+
+        <div class="post-tags">
+            <span>ArtCAM</span>
+            <span>CNC Machining</span>
+            <span>3D Relief</span>
+        </div>
+
+        <div class="related">
+            <h3>Read Next</h3>
+            <div class="related-grid">
+                <div class="related-item">
+                    <span class="tag">বাংলা · MS Office</span>
+                    <h4><a href="bn-excel-shortcuts.html">Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></h4>
+                </div>
+                <div class="related-item">
+                    <span class="tag">English · AI & Design</span>
+                    <h4><a href="en-ai-design-tools.html">5 Free AI Tools That Supercharge Your Design Work</a></h4>
+                </div>
+            </div>
+        </div>
+
+    
+
+    </main>
+
+    <aside class="sidebar">
+        <div class="sidebar-box author-box">
+            <img src="../img/plabon.png" alt="Apnan Ahmed">
+            <h3>Apnan Ahmed</h3>
+            <p>Microsoft Office Expert & Graphic Designer — ১৮ বছরের অভিজ্ঞতা থেকে ফ্রি টিপস, টিউটোরিয়াল আর AI টুল শেয়ার করছি।</p>
+            <a href="../index.html" class="btn small-btn">My Portfolio</a>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="sidebar-title">My Other Site</h3>
+            <p class="sidebar-note">ডিজিটাল সার্ভিস, সেন্টার আর আউটসোর্সিং বিষয়ক আমার আরেকটা সাইট:</p>
+            <a href="https://aksadigitalpoint.wuaze.com/" target="_blank" rel="noopener" class="btn small-btn site-link">Aksa Digital Point</a>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="sidebar-title">Categories</h3>
+            <ul class="sidebar-list">
+                <li><a href="index.html#cat-office">MS Office <span class="count">10</span></a></li>
+                <li><a href="index.html#cat-design">Design Tools <span class="count">5</span></a></li>
+                <li><a href="index.html#cat-ai">AI & Design <span class="count">2</span></a></li>
+                <li><a href="index.html#cat-web">Web Design <span class="count">1</span></a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="sidebar-title">Recent Posts</h3>
+            <ul class="sidebar-list recent">
+                <li><a href="bn-excel-shortcuts.html"><span class="r-tag">বাংলা · MS Office</span>Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></li>
+                <li><a href="bn-word-tips.html"><span class="r-tag">বাংলা · MS Office</span>Microsoft Word-এ পেশাদার ডকুমেন্ট তৈরি</a></li>
+                <li><a href="en-photoshop-basics.html"><span class="r-tag">English · Design Tools</span>Photoshop Basics: 8 Tools to Master First</a></li>
+                <li><a href="bn-powerpoint-tips.html"><span class="r-tag">বাংলা · MS Office</span>PowerPoint-এ প্রেজেন্টেশন এনগেজিং করুন</a></li>
+                <li><a href="en-ai-design-tools.html"><span class="r-tag">English · AI & Design</span>5 Free AI Tools That Supercharge Design</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    </div>
+
+    <footer>
+        <p>Copyright  2026 by <span>Apnan Ahmed</span> || All Right Reserved.</p>
+    </footer>
+
+</body>
+</html>

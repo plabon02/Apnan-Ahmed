@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Access দিয়ে ডাটাবেস শেখা — সহজ বাংলায় গাইড | Apnan Ahmed</title>
+    <meta name="description" content="Microsoft Access দিয়ে শুরুতেই ডাটাবেস শেখার সহজ বাংলা গাইড — টেবিল, প্রাইমারি কী, ফর্ম, কোয়েরি ও রিপোর্ট সহ একটি বুক লাইব্রেরির বাস্তব উদাহরণ।">
+    <meta name="keywords" content="Microsoft Access, Access ডাটাবেস, ডাটাবেস শেখা, Access বাংলা গাইড, বুক লাইব্রেরি, Apnan Ahmed">
+    <meta name="author" content="Apnan Ahmed">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://plabon02.github.io/Apnan-Ahmed/blog/bn-access-basics.html">
+    <meta name="theme-color" content="#e6006d">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='20'%20fill='%23e6006d'/%3E%3Ctext%20x='50'%20y='72'%20font-size='64'%20text-anchor='middle'%20fill='%23fff'%20font-family='Arial'%20font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Microsoft Access দিয়ে ডাটাবেস শেখা — সহজ বাংলায় গাইড">
+    <meta property="og:description" content="Microsoft Access দিয়ে শুরুতেই ডাটাবেস শেখার সহজ বাংলা গাইড — টেবিল, প্রাইমারি কী, ফর্ম, কোয়েরি ও রিপোর্ট সহ একটি বুক লাইব্রেরির বাস্তব উদাহরণ।">
+    <meta property="og:url" content="https://plabon02.github.io/Apnan-Ahmed/blog/bn-access-basics.html">
+    <meta property="og:image" content="https://plabon02.github.io/Apnan-Ahmed/img/portfolio/office-access.jpg"> 
+    <meta property="og:site_name" content="Apnan Ahmed">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Microsoft Access দিয়ে ডাটাবেস শেখা — সহজ বাংলায় গাইড",
+      "description": "Microsoft Access দিয়ে শুরুতেই ডাটাবেস শেখার সহজ বাংলা গাইড — টেবিল, প্রাইমারি কী, ফর্ম, কোয়েরি ও রিপোর্ট সহ একটি বুক লাইব্রেরির বাস্তব উদাহরণ।",
+      "image": "https://plabon02.github.io/Apnan-Ahmed/img/portfolio/office-access.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Apnan Ahmed",
+        "url": "https://plabon02.github.io/Apnan-Ahmed/"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Apnan Ahmed"
+      },
+      "datePublished": "2026-08-29",
+      "dateModified": "2026-08-29",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://plabon02.github.io/Apnan-Ahmed/blog/bn-access-basics.html"
+      },
+      "inLanguage": "bn",
+      "keywords": "Microsoft Access, Access ডাটাবেস, ডাটাবেস শেখা, Access বাংলা গাইড, বুক লাইব্রেরি"
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><span>Apnan </span>Blog</a>
+        <ul>
+            <li><a href="../index.html">Portfolio</a></li>
+            <li><a href="index.html">Blog</a></li>
+        </ul>
+    </header>
+
+    <div class="post-layout">
+
+    <main class="post-page">
+
+        <a class="back-link" href="index.html"><i class='bx bx-left-arrow-alt'></i> সব পোস্ট</a>
+
+        <header>
+            <div class="post-meta">
+                <span class="tag lang-bn">বাংলা</span>
+                <span class="cat">MS Office</span>
+                <span>আগস্ট 2026</span>
+            </div>
+            <h1>Microsoft Access দিয়ে ডাটাবেস শেখা — সহজ বাংলায় গাইড</h1>
+        </header>
+
+        <!-- TODO: কভার ছবি — img/portfolio/ এর যেকোনোটা ব্যবহার করা যাবে -->
+        <img class="post-cover" src="../img/portfolio/office-access.jpg" alt="Microsoft Access দিয়ে ডাটাবেস শেখা">
+
+        <div class="post-content">
+
+            <p>Microsoft Access হলো একটি রিলেশনাল ডাটাবেস ম্যানেজমেন্ট সিস্টেম, যেখানে তথ্য গোছানোভাবে সংরক্ষণ, খোঁজা ও বিশ্লেষণ করা যায়। অনেকেই যখন ডাটাবেস শেখা শুরু করে, তখন Access বেছে নেয় কারণ এটি Excel-এর চেয়ে শক্তিশালী অথচ ব্যবহার করা তুলনামূলকভাবে সহজ। এই বাংলা গাইডে আমি Access-এর মূল কনসেপ্টগুলো সহজ ভাষায় — টেবিল, প্রাইমারি কী, ফর্ম, কোয়েরি ও রিপোর্ট — একটি বাস্তব উদাহরণ (বুক লাইব্রেরি) দিয়ে বুঝিয়ে দেব।</p>
+
+            <h2>ডাটাবেস আসলে কী?</h2>
+            <p>ডাটাবেস হলো গোছানো তথ্যের সংগ্রহ যেখানে ডেটা সংরক্ষণ, আপডেট ও খোঁজা হয়। Excel-এ তথ্য একই শিটে রাখা হয়, কিন্তু Access-এ তথ্য একাধিক টেবিলে ভাগ করা যায় এবং টেবিলগুলোর মধ্যে সম্পর্ক (relationship) তৈরি করা যায়।</p>
+
+            <h2>টেবিল (Table)</h2>
+            <p>টেবিল হলো ডাটাবেসের মূল কাঠামো — এখানে তথ্য সারি (row) ও কলামে (column) রাখা হয়। প্রতিটা কলাম একটি ফিল্ড, আর প্রতিটা সারি একটি রেকর্ড। যেমন একটি বুক লাইব্রেরিতে বইয়ের টেবিলে থাকে বইয়ের নাম, লেখক, প্রকাশক, আইএসবিএন।</p>
+
+            <table>
+                <tr><th>BookID</th><th>বইয়ের নাম</th><th>লেখক</th><th>প্রকাশক</th></tr>
+                <tr><td>101</td><td>হিমু</td><td>হুমায়ূন আহমেদ</td><td>অন্বেষা</td></tr>
+                <tr><td>102</td><td>বাংলাদেশের ইতিহাস</td><td>রহিম উদ্দিন</td><td>প্রথমা</td></tr>
+            </table>
+
+            <h2>প্রাইমারি কী (Primary Key)</h2>
+            <p>প্রতিটা টেবিলে একটি প্রাইমারি কী থাকে — এমন একটি ফিল্ড যার ভ্যালু প্রতিটা রেকর্ডে অনন্য। উপরের উদাহরণে BookID হলো প্রাইমারি কী, কারণ দুইটা বইয়ের BookID কখনো একই হতে পারে না। এতে রেকর্ড খুঁজে বের করা ও সম্পর্ক তৈরি করা সহজ হয়।</p>
+
+            <h2>ফর্ম (Form)</h2>
+            <p>ফর্ম দিয়ে ডেটা এন্ট্রি করার সুন্দর, ব্যবহারবান্ধব ইন্টারফেস তৈরি করা যায়। টেবিলে সরাসরি ডেটা ঢোকানোর বদলে Create → Form দিয়ে একটা ফর্ম বানান, যাতে একবারে একটা রেকর্ড দেখানো হয়। লাইব্রেরিয়ান ফর্মে বইয়ের তথ্য ঢোকালে ভুল কম হয়।</p>
+
+            <h2>কোয়েরি (Query)</h2>
+            <p>কোয়েরি দিয়ে নির্দিষ্ট শর্তে তথ্য খোঁজা যায়। যেমন "হুমায়ূন আহমেদের সব বই বের করো" — Create → Query Design-এ গিয়ে লেখক ফিল্ডে শর্ত দিলেই কেবল সেই লেখকের বই আসবে। কোয়েরি হলো ডাটাবেসের সবচেয়ে শক্তিশালী টুল।</p>
+
+            <h2>রিপোর্ট (Report)</h2>
+            <p>রিপোর্ট দিয়ে তথ্য প্রিন্টেবল, পেশাদার আকারে সাজানো যায়। Create → Report দিয়ে কোয়েরির ফলাফল ছাপার জন্য সাজান — যেমন মাসিক বই রিটার্ন রিপোর্ট বা কালেকশন তালিকা।</p>
+
+            <h2>একটি সহজ উদাহরণ: বুক লাইব্রেরি</h2>
+            <ol>
+                <li>Books টেবিল: BookID, নাম, লেখক, প্রকাশক</li>
+                <li>Members টেবিল: MemberID, নাম, ফোন</li>
+                <li>Loans টেবিল: LoanID, BookID, MemberID, তারিখ (সম্পর্কের টেবিল)</li>
+                <li>ফর্ম দিয়ে বই ও সদস্য এন্ট্রি</li>
+                <li>কোয়েরি দিয়ে "যে বই এখনো ফেরত দেওয়া হয়নি" বের করুন</li>
+            </ol>
+
+            <blockquote>ডাটাবেস শেখার মূল চাবিকাঠি: একাধিক টেবিল ঠিকমতো ডিজাইন করা এবং টেবিলগুলোর মধ্যে সম্পর্ক বোঝা — তবেই Access-এর আসল শক্তি বেরিয়ে আসে।</blockquote>
+
+            <p>এভাবে Access দিয়ে ডাটাবেস শেখা শুরু করলে ধীরে ধীরে জটিল প্রকল্পও সামলাতে পারবেন। আপনার প্রথম ডাটাবেস বানিয়ে দেখুন, আর সমস্যায় পড়লে কমেন্টে জানান। পোস্টটা ভালো লাগলে বন্ধুদের সাথে শেয়ার করুন।</p>
+
+        </div>
+
+        <div class="post-tags">
+            <span>Microsoft Access</span>
+            <span>ডাটাবেস</span>
+            <span>MS Office</span>
+        </div>
+
+        <div class="related">
+            <h3>আরও পড়ুন</h3>
+            <div class="related-grid">
+                <div class="related-item">
+                    <span class="tag">বাংলা · MS Office</span>
+                    <h4><a href="bn-excel-shortcuts.html">Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></h4>
+                </div>
+                <div class="related-item">
+                    <span class="tag">English · AI & Design</span>
+                    <h4><a href="en-ai-design-tools.html">5 Free AI Tools That Supercharge Your Design Work</a></h4>
+                </div>
+            </div>
+        </div>
+
+    
+
+    </main>
+
+    <aside class="sidebar">
+        <div class="sidebar-box author-box">
+            <img src="../img/plabon.png" alt="Apnan Ahmed">
+            <h3>Apnan Ahmed</h3>
+            <p>Microsoft Office Expert & Graphic Designer — ১৮ বছরের অভিজ্ঞতা থেকে ফ্রি টিপস, টিউটোরিয়াল আর AI টুল শেয়ার করছি।</p>
+            <a href="../index.html" class="btn small-btn">My Portfolio</a>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="sidebar-title">My Other Site</h3>
+            <p class="sidebar-note">ডিজিটাল সার্ভিস, সেন্টার আর আউটসোর্সিং বিষয়ক আমার আরেকটা সাইট:</p>
+            <a href="https://aksadigitalpoint.wuaze.com/" target="_blank" rel="noopener" class="btn small-btn site-link">Aksa Digital Point</a>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="sidebar-title">Categories</h3>
+            <ul class="sidebar-list">
+                <li><a href="index.html#cat-office">MS Office <span class="count">10</span></a></li>
+                <li><a href="index.html#cat-design">Design Tools <span class="count">5</span></a></li>
+                <li><a href="index.html#cat-ai">AI & Design <span class="count">2</span></a></li>
+                <li><a href="index.html#cat-web">Web Design <span class="count">1</span></a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-box">
+            <h3 class="sidebar-title">Recent Posts</h3>
+            <ul class="sidebar-list recent">
+                <li><a href="bn-excel-shortcuts.html"><span class="r-tag">বাংলা · MS Office</span>Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></li>
+                <li><a href="bn-word-tips.html"><span class="r-tag">বাংলা · MS Office</span>Microsoft Word-এ পেশাদার ডকুমেন্ট তৈরি</a></li>
+                <li><a href="en-photoshop-basics.html"><span class="r-tag">English · Design Tools</span>Photoshop Basics: 8 Tools to Master First</a></li>
+                <li><a href="bn-powerpoint-tips.html"><span class="r-tag">বাংলা · MS Office</span>PowerPoint-এ প্রেজেন্টেশন এনগেজিং করুন</a></li>
+                <li><a href="en-ai-design-tools.html"><span class="r-tag">English · AI & Design</span>5 Free AI Tools That Supercharge Design</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    </div>
+
+    <footer>
+        <p>Copyright  2026 by <span>Apnan Ahmed</span> || All Right Reserved.</p>
+    </footer>
+
+</body>
+</html>
