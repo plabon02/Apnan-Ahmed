@@ -13,8 +13,8 @@
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Crect%20width='100'%20height='100'%20rx='20'%20fill='%23e6006d'/%3E%3Ctext%20x='50'%20y='72'%20font-size='64'%20text-anchor='middle'%20fill='%23fff'%20font-family='Arial'%20font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Tiro+Bangla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=5">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Photoshop Basics: 8 Tools Every Designer Should Master First">
@@ -52,13 +52,57 @@
 </head>
 <body>
 
-    <header>
+    <div class="topbar">
         <a href="index.html" class="logo"><span>Apnan </span>Blog</a>
+        <div class="topbar-right">
+            <div class="oi-social">
+                <a href="https://www.facebook.com/A.A.Plabon" target="_blank" rel="noopener" title="Facebook"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/plabon02" target="_blank" rel="noopener" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/a.a.plabon/" target="_blank" rel="noopener" title="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:apnan2010@gmail.com" title="Email"><i class='bx bxs-envelope'></i></a>
+            </div>
+            <button type="button" class="search-toggle" id="searchToggle" aria-label="Search"><i class='bx bx-search'></i></button>
+            <button type="button" class="menu-toggle" id="menuToggle" aria-label="Menu"><i class='bx bx-menu'></i></button>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
         <ul>
-            <li><a href="../index.html">Portfolio</a></li>
-            <li><a href="index.html">Blog</a></li>
+            <li><a href="index.html">হোম</a></li>
+            <li class="dropdown">
+                <a href="#" class="drop-trigger">ক্যাটাগরি <i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-panel">
+                    <li><a href="index.html#cat-word">Word <span>৩২</span></a></li>
+                    <li><a href="index.html#cat-excel">Excel <span>২</span></a></li>
+                    <li><a href="index.html#cat-ppt">PowerPoint <span>২</span></a></li>
+                    <li><a href="index.html#cat-access">Access <span>১</span></a></li>
+                    <li><a href="index.html#cat-outlook">Outlook <span>১</span></a></li>
+                    <li><a href="index.html#cat-onenote">OneNote <span>১</span></a></li>
+                    <li><a href="index.html#cat-publisher">Publisher <span>১</span></a></li>
+                    <li><a href="index.html#cat-libreoffice">LibreOffice <span>১</span></a></li>
+                    <li><a href="index.html#cat-wps">WPS Office <span>১</span></a></li>
+                    <li><a href="index.html#cat-pdf">PDF <span>১</span></a></li>
+                    <li><a href="index.html#cat-ai">AI &amp; Design <span>২</span></a></li>
+                    <li><a href="index.html#cat-photoshop">Photoshop <span>১</span></a></li>
+                    <li><a href="index.html#cat-illustrator">Illustrator <span>১</span></a></li>
+                    <li><a href="index.html#cat-indesign">InDesign <span>১</span></a></li>
+                    <li><a href="index.html#cat-coreldraw">CorelDRAW <span>১</span></a></li>
+                    <li><a href="index.html#cat-artcam">ArtCAM <span>১</span></a></li>
+                    <li><a href="index.html#cat-web">Web Design <span>১</span></a></li>
+                    <li><a href="index.html#lang-bn">বাংলা পোস্ট <span>৪৩</span></a></li>
+                    <li><a href="index.html#lang-en">English Posts <span>৮</span></a></li>
+                    </ul>
+            </li>
+            <li><a href="../index.html">পোর্টফোলিও</a></li>
+            <li><a href="https://aksadigitalpoint.wuaze.com/" target="_blank" rel="noopener">Aksa Digital Point</a></li>
+            <li><a href="../index.html#contact">যোগাযোগ</a></li>
         </ul>
-    </header>
+    </nav>
+
+    <div class="search-panel" id="searchPanel">
+        <input type="text" id="searchInput" placeholder="পোস্ট খুঁজুন... (যেমন: Excel, Photoshop, PDF)">
+        <button type="button" class="search-close" id="searchClose" aria-label="Close search"><i class='bx bx-x'></i></button>
+    </div>
 
     <div class="post-layout">
 
@@ -69,7 +113,7 @@
         <header>
             <div class="post-meta">
                 <span class="tag lang-en">English</span>
-                <span class="cat">Design Tools</span>
+                <span class="cat">Photoshop</span>
                 <span>Aug 2026</span>
             </div>
             <h1>Photoshop Basics: 8 Tools Every Designer Should Master First</h1>
@@ -133,7 +177,7 @@
             <h3>Read Next</h3>
             <div class="related-grid">
                 <div class="related-item">
-                    <span class="tag">বাংলা · MS Office</span>
+                    <span class="tag">বাংলা · Excel</span>
                     <h4><a href="bn-excel-shortcuts.html">Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></h4>
                 </div>
                 <div class="related-item">
@@ -164,20 +208,33 @@
         <div class="sidebar-box">
             <h3 class="sidebar-title">Categories</h3>
             <ul class="sidebar-list">
-                <li><a href="index.html#cat-office">MS Office <span class="count">10</span></a></li>
-                <li><a href="index.html#cat-design">Design Tools <span class="count">5</span></a></li>
-                <li><a href="index.html#cat-ai">AI & Design <span class="count">2</span></a></li>
-                <li><a href="index.html#cat-web">Web Design <span class="count">1</span></a></li>
-            </ul>
+                    <li><a href="index.html#cat-word"><i class='bx bxs-file-doc'></i>Word <span class="count">32</span></a></li>
+                    <li><a href="index.html#cat-excel"><i class='bx bxs-spreadsheet'></i>Excel <span class="count">2</span></a></li>
+                    <li><a href="index.html#cat-ppt"><i class='bx bxs-slideshow'></i>PowerPoint <span class="count">2</span></a></li>
+                    <li><a href="index.html#cat-access"><i class='bx bxs-data'></i>Access <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-outlook"><i class='bx bxs-envelope'></i>Outlook <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-onenote"><i class='bx bxs-notepad'></i>OneNote <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-publisher"><i class='bx bxs-news'></i>Publisher <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-libreoffice"><i class='bx bxs-file'></i>LibreOffice <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-wps"><i class='bx bxs-file-doc'></i>WPS Office <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-pdf"><i class='bx bxs-file-pdf'></i>PDF <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-ai"><i class='bx bxs-bot'></i>AI &amp; Design <span class="count">2</span></a></li>
+                    <li><a href="index.html#cat-photoshop"><i class='bx bxs-palette'></i>Photoshop <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-illustrator"><i class='bx bxs-pen'></i>Illustrator <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-indesign"><i class='bx bxs-edit'></i>InDesign <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-coreldraw"><i class='bx bxs-paint'></i>CorelDRAW <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-artcam"><i class='bx bxs-cube'></i>ArtCAM <span class="count">1</span></a></li>
+                    <li><a href="index.html#cat-web"><i class='bx bxs-planet'></i>Web Design <span class="count">1</span></a></li>
+                    </ul>
         </div>
 
         <div class="sidebar-box">
             <h3 class="sidebar-title">Recent Posts</h3>
             <ul class="sidebar-list recent">
-                <li><a href="bn-excel-shortcuts.html"><span class="r-tag">বাংলা · MS Office</span>Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></li>
-                <li><a href="bn-word-tips.html"><span class="r-tag">বাংলা · MS Office</span>Microsoft Word-এ পেশাদার ডকুমেন্ট তৈরি</a></li>
-                <li><a href="en-photoshop-basics.html"><span class="r-tag">English · Design Tools</span>Photoshop Basics: 8 Tools to Master First</a></li>
-                <li><a href="bn-powerpoint-tips.html"><span class="r-tag">বাংলা · MS Office</span>PowerPoint-এ প্রেজেন্টেশন এনগেজিং করুন</a></li>
+                <li><a href="bn-excel-shortcuts.html"><span class="r-tag">বাংলা · Excel</span>Excel-এ কি-বোর্ড শর্টকাটে কাজ দ্বিগুণ গতিতে</a></li>
+                <li><a href="bn-word-tips.html"><span class="r-tag">বাংলা · Word</span>Microsoft Word-এ পেশাদার ডকুমেন্ট তৈরি</a></li>
+                <li><a href="en-photoshop-basics.html"><span class="r-tag">English · Photoshop</span>Photoshop Basics: 8 Tools to Master First</a></li>
+                <li><a href="bn-powerpoint-tips.html"><span class="r-tag">বাংলা · PowerPoint</span>PowerPoint-এ প্রেজেন্টেশন এনগেজিং করুন</a></li>
                 <li><a href="en-ai-design-tools.html"><span class="r-tag">English · AI & Design</span>5 Free AI Tools That Supercharge Design</a></li>
             </ul>
         </div>
@@ -185,9 +242,65 @@
 
     </div>
 
-    <footer>
-        <p>Copyright  2026 by <span>Apnan Ahmed</span> || All Right Reserved.</p>
+    <footer class="footer4">
+        <div class="footer4-col">
+            <h3>Apnan Ahmed সম্পর্কে</h3>
+            <p>১৮ বছরের Microsoft Office অভিজ্ঞতা। গ্রাফিক ডিজাইনার ও AI ওয়েব ডেভেলপার — নিজের অভিজ্ঞতা বিনামূল্যে শেয়ার করছি।</p>
+            <a href="../index.html" class="footer-link">আমার পোর্টফোলিও দেখুন →</a>
+        </div>
+        <div class="footer4-col">
+            <h3>গুরুত্বপূর্ণ লিংক</h3>
+            <ul class="footer-links">
+                <li><a href="../index.html">পোর্টফোলিও</a></li>
+                <li><a href="../index.html#services">সার্ভিস</a></li>
+                <li><a href="../index.html#contact">যোগাযোগ</a></li>
+                <li><a href="mailto:apnan2010@gmail.com">Hire Me</a></li>
+                <li><a href="https://aksadigitalpoint.wuaze.com/" target="_blank" rel="noopener">Aksa Digital Point</a></li>
+            </ul>
+        </div>
+        <div class="footer4-col">
+            <h3>জনপ্রিয় পোস্ট</h3>
+            <ul class="footer-links">
+                <li><a href="bn-excel-shortcuts.html">Excel শর্টকাট গাইড</a></li>
+                <li><a href="bn-word-tips.html">Word প্রো টিপস</a></li>
+                <li><a href="en-ai-design-tools.html">Free AI Design Tools</a></li>
+                <li><a href="en-photoshop-basics.html">Photoshop Basics</a></li>
+                <li><a href="en-website-design.html">Website That Converts</a></li>
+            </ul>
+        </div>
+        <div class="footer4-col">
+            <ul class="footer-links">
+                <li><a href="index.html#cat-word">Word</a></li>
+                <li><a href="index.html#cat-excel">Excel</a></li>
+                <li><a href="index.html#cat-ppt">PowerPoint</a></li>
+                <li><a href="index.html#cat-access">Access</a></li>
+                <li><a href="index.html#cat-outlook">Outlook</a></li>
+                <li><a href="index.html#cat-onenote">OneNote</a></li>
+                <li><a href="index.html#cat-publisher">Publisher</a></li>
+                <li><a href="index.html#cat-libreoffice">LibreOffice</a></li>
+                <li><a href="index.html#cat-wps">WPS Office</a></li>
+                <li><a href="index.html#cat-pdf">PDF</a></li>
+                <li><a href="index.html#cat-ai">AI &amp; Design</a></li>
+                <li><a href="index.html#cat-photoshop">Photoshop</a></li>
+                <li><a href="index.html#cat-illustrator">Illustrator</a></li>
+                <li><a href="index.html#cat-indesign">InDesign</a></li>
+                <li><a href="index.html#cat-coreldraw">CorelDRAW</a></li>
+                <li><a href="index.html#cat-artcam">ArtCAM</a></li>
+                <li><a href="index.html#cat-web">Web Design</a></li>
+                </ul>
+        </div>
     </footer>
+
+    <div class="copyright-bar">
+        <p>Copyright © 2026 by <span>Apnan Ahmed</span> || All Right Reserved.</p>
+    </div>
+
+    <button type="button" class="to-top" id="toTop" aria-label="Back to top"><i class='bx bxs-chevrons-up'></i></button>
+    <a href="https://wa.me/8801712931123" target="_blank" rel="noopener" class="floating-chat" title="WhatsApp">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+    <script src="script.js?v=3"></script>
 
 </body>
 </html>
